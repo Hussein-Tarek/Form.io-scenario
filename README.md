@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FormIO-POC# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Form.io-scenario
+>>>>>>> 352e4803a51e90ec55bac9b0c2383b7e8d0fb470
