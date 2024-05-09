@@ -1,0 +1,170 @@
+@media (min-width: 600px) {
+  .form {
+    width: 75%;
+  }
+}
+/* .test input {
+  height: 100px;
+} */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.formcomponents .builder-sidebar {
+  text-align: center;
+}
+/* .card-body .formcomponent {
+  text-align: center;
+} */
+/* .sidebar-groups {
+  text-align: center;
+} */
+
+:lang(ar) .btn.builder-group-button,
+:lang(ar) .card-body .formcomponent,
+:lang(ar) .formio-dialog {
+  text-align: right;
+  direction: rtl;
+}
+/* :lang(ar) .formio-dialog {
+  text-align: right;
+} */
+:lang(ar).form-check {
+  direction: ltr;
+}
+.drag-copy {
+  width: 100%;
+}
+/* 
+.formio-form div {
+  display: flex;
+  gap: 20px;
+}
+
+.wizard-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.formio-wizard-nav-container.list-inline {
+  display: block;
+  width: 100%;
+} */
+
+.formio-wizard-nav-container.list-inline {
+  margin-top: 10px;
+}
+/* button.page-link {
+  width: 70px;
+  height: 70px;
+  border-radius: 100% !important;
+  margin-right: 5px;
+} */
+
+.breadcrumb.wizard-pages {
+  background-color: #0d6efd;
+  width: fit-content;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.formio-component .form-control {
+  width: 100%;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  appearance: none;
+  background-color: rgb(255, 255, 255);
+  background-clip: padding-box;
+  /* border: 2px solid rgb(255, 168, 47); */
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formio-component .form-control:focus {
+  /* color: var(--bs-body-color); */
+  /* background-color: var(--bs-body-bg); */
+  /* border-color: #ff8800; */
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(255, 68, 0, 0.25);
+}
+.selection {
+  padding: 20px;
+  border: solid 1px;
+  width: 80%;
+}
+
+.nav .nav-item {
+  /* --bs-nav-link-color: rgb(255, 47, 0); */
+}
+
+a[href="https://help.form.io/userguide/form-building/form-components#text-field"]
+{
+  /* color: red; */
+}
+.form-check .form-check-input:checked {
+  /* background-color: #fd350d;
+  border-color: #fd350d; */
+}
+.radio .form-check-input:checked {
+  /* background-color: #fd350d;
+  border-color: #fd350d; */
+}
+
+/* .accordion .builder-sidebar .builder-sidebar_scroll */
+/* formio builder row formbuilder */
+
+/* .formio.builder.row.formbuilder {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+} */
+
+/* col-xs-8 col-sm-9 col-md-10 formarea */
+
+.col-md-10 {
+  width: 70%;
+}
+/* row formio-component formio-component-columns formio-component-address  formio-component-label-hidden */
+
+.formio-component-columns {
+  display: flex;
+  gap: 30px;
+}
+.drag-container {
+  padding: 10px 40px 10px 10px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.builder-group-button {
+  color: white;
+  background-color: #1c8821;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.formio-component input.form-control {
+  /* width: 100%; */
+  border-radius: 10px;
+}
+
+.list-group-striped {
+  padding: 0 !important;
+}

@@ -1,0 +1,22 @@
+.list-group-striped {
+  padding: 0;
+}
+
+.list-group-header {
+  display: none;
+}
+.btn-primary {
+  background-color: #09bab5;
+  border: none;
+  text-align: start !important;
+}
+.btn-primary:hover {
+  background-color: #0a9f9a;
+}
+.drag-copy {
+  width: 100%;
+}
+
+.formio-component-htmlelement {
+  /* display: none; */
+}
